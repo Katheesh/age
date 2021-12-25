@@ -1,0 +1,29 @@
+.title{
+  display:flex;
+  height: 10em;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Calibri';
+  font-size: 2em;
+  color: #8c6b0b;
+}
+
+.countup {
+  text-align: center;
+}
+.countup .timeel {
+  display: inline-flex;
+  padding: 10px;
+  background: #151515;
+  margin: 1em 0;
+  color: white;
+  min-width: 2.6rem;
+  margin-left: 13px;
+  border-radius: 10px 0 0 10px;
+}
+.countup span[class*="timeRef"] {
+  border-radius: 0 10px 10px 0;
+  margin-left: 0;
+  background: #e8c152;
+  color: black;
+}
